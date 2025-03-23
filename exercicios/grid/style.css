@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+
+#container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 100px;
+}
+
+header {
+    background-color: blueviolet;
+    
+    align-self: self-end;
+  
+}
+aside {
+    background-color: rgb(182, 7, 182);
+   
+}
+article {
+    background-color: rgb(239, 130, 229);
+}
+section {
+    background-color: rgb(89, 222, 89);
+
+}
+footer {
+    background-color: greenyellow;
+    
+ 
+   
+}
